@@ -1,0 +1,20 @@
+@media(max-width:1290px) {
+    section.container .content .box1{
+        display: none;
+    }
+    section.container .content{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width:990px) {
+    section.container .content{
+        padding: 177px 95px 200px 95px;
+    }
+    section.container .content .box2{
+        margin: 0;
+        padding: 0;
+    }
+}
+

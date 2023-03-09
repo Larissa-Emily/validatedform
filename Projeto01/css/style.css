@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(to right, #7155cb, #8154ca, #8f53c8, #9d53c6, #a952c4);
+}
+
+section.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section.container .content{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 177px 130px 200px 130px;
+    border-radius: 2%;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+section.container .content .box1 , .box2{
+    padding: 10px;
+}
+
+section.container .content .box2 input, button{
+    padding: 18px;
+    border-radius: 50px;
+    border: none;
+}
+ 
+section.container .content .box2 input{
+    width: 250px;
+    display: block;
+    background-color: #e6e6e6;
+    margin: 10px;
+}
+
+section.container .content .box2{
+    text-align: center;
+}
+
+section.container .content .box2 h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+section.container .content .box2 button{
+    width: 290px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #57b84d;
+}
+
+section.container .content .box2 button:hover{
+    background-color: #333;
+    transition: all 0.5s ease-out;
+}
+
+section.container .content .box2 p{
+    font-size: 12px;
+    color: #999;
+}
+
+section.container .content .box2 p a{
+    color: #646464;
+    
+}
+
+section.container .content .box2 p a:hover
+,section.container .content .box2 .criar a:hover{
+
+    color: #57b84d;
+    transition: all 0.5s ease-out;
+}
+
+section.container .content .box2 .criar{
+    line-height: 10rem;
+    color: #333;
+    font-size: 15px;
+}
